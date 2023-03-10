@@ -12,7 +12,7 @@ export const QUERY_USER = gql`
                 date
                 menuItem
                 rating
-                restaurant {
+                restaurantId {
                     _id
                     name
                     zipcode

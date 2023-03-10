@@ -30,8 +30,12 @@ const UserReviews = () => {
                         {review.rating}/10
                     </p>
                     <p className='card-body'>
-                        {review.comment}</p>
-                    Written on: {review.date}
+                        {review.comment}
+                    </p>
+                    <p className='card-body'>
+                        Written on: {review.date}
+                    </p>
+
                 </div>
             ))}
         </div>

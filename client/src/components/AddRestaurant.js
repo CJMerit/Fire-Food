@@ -68,7 +68,7 @@ function AddRestaurant() {
               name="name"
               onChange={handleInputChange}
               type="text"
-              placeholder="name"
+              placeholder="Restaurant Name"
             />
             <input
             className="form-control p-2 mb-4"
